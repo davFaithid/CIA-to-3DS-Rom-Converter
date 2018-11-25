@@ -1,4 +1,6 @@
 @ECHO OFF
-cd C:\Users\YourNameHere\Desktop\makerom
-makerom-x86_64.exe -ciatocci ROM.cia
-ren *.cci GAME.3ds
+echo Converting...
+makerom.exe -ciatocci "%~1"
+ren *.cci *.3ds
+echo Done!
+pause
