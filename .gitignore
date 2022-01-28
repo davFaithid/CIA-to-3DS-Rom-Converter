@@ -1,6 +1,13 @@
 
-dirdel.cmd
+*.3ds
+*.cia
+*.cci
+*.ncch
+*.cxi
+*.bin
+*.srl
+*.nds
 
-/makerom (1 bat file)
-/makerom (2 bat files)
+makerom.exe
+
 .gitignore

@@ -1,7 +1,6 @@
 @ECHO OFF
-cd "%~dp0"
-echo Converting...
-makerom.exe -ciatocci "%~1"
-ren *.cci *.3ds
-echo Done!
-pause
+cd %~dp0
+for %%F in (%*) do (
+  makerom.exe -ciatocci %%F
+  ren "%%~dpnF.cci" "%%~nF.3ds"
+)
