@@ -1,4 +1,4 @@
-## This converter requires a version of makerom, which can be found (here)[https://github.com/3DSGuy/Project_CTR/releases/latest/]. 
+## This converter requires a version of makerom, which can be found [here](https://github.com/3DSGuy/Project_CTR/releases/latest/). 
 
 This converter only works on Windows at the moment.
 
